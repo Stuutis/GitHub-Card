@@ -1,4 +1,4 @@
-<h1>Confira o projeto aqui<a href="http://" target="_blank"> GitHub-Card</a></h1>
+<h1>Confira o projeto aqui<a href="https://stuutis.github.io/GitHub-Card/" target="_blank"> GitHub-Card</a></h1>
 
 <h3>Um card com inforamções do GitHub, coletados atraves da API do propio GitHub.<h3>
 
@@ -12,4 +12,4 @@
 
 <img src= "https://user-images.githubusercontent.com/85755177/192181839-159f754e-ab97-4326-bc3c-864f67afef39.png" />
 
-<p> Confira o projeto e crie o seu card e personalize com suas cores!<a href="http://" target="_blank"> GitHub-Card</a></p>
+<p> Confira o projeto e crie o seu card e personalize com suas cores!<a href="https://stuutis.github.io/GitHub-Card/" target="_blank"> GitHub-Card</a></p>
