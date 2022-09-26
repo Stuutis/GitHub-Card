@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+font-family: 'Abel', sans-serif;
+
+}
+
+:root {
+  --hue: 200;
+  --body-color: 4000;
+  --profile-border: hsl(calc(var(--hue) - 10),60%, 70%);
+
+  --gradient-color-top: hsla(var(--hue), 100%, 35%, 1);
+  --gradient-color-middle: hsla(var(--hue), 100%, 27%, 0.557);
+  --gradient-color-bottom: hsla(var(--hue), 100%, 10%, 1);
+
+  --info-card-gradient-top: hsl(var(--hue), 100%, 20%, 1);
+  --info-card-gradient-middle: hsl(var(--hue), 100%, 40%, 1);
+  --info-card-gradient-bottom: hsl(var(--hue), 100%, 30%, 1);
+
+  --body-gradient-top: hsl(var(--body-color), 100%, 10%, 1);
+  --body-gradient-middle: hsl(var(--body-color), 100%, 10%, 1);
+}
+
+main {
+  position: relative;
+  display: inline-block;
+  margin-top: 5%;
+  padding: 15px;
+  height: 70vh;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  text-align: center;
+  background: linear-gradient(to bottom, #0E1218, #0E1218);
+  min-height: 100vh;
+}
+
+
+.card {
+  background: linear-gradient(to bottom, var(--gradient-color-top), var(--gradient-color-middle), var(--gradient-color-bottom));
+  max-width: 420px;
+  width: 100%;
+  border-radius: 50px;
+  border: 5px solid black;
+}
+
+.header {
+  padding: 0px 20px;
+  margin-top: 4%;
+  margin-left: 3%;
+  margin-left: 15%;
+  width: 60%;
+  height: 50px;
+
+  border-radius: 20px;
+}
+
+.nameTab {
+  padding-right: 20px;
+}
+
+.name {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: end;
+  width: 60%;
+  font-size: 20px;
+  color: white;
+  white-space: nowrap;
+  font-weight: 600;
+}
+
+.nameTag {
+  display: flex;
+}
+
+.infoCard {
+  background: linear-gradient(to bottom, var(--info-card-gradient-top), var(--info-card-gradient-middle), var(--info-card-gradient-bottom));
+  border-radius: 10px;
+  position: absolute;
+  bottom: 20%;
+  text-align: left;
+  padding: 14px;
+  color: white;
+  z-index: 3;
+  width: 40%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid var(--profile-border);
+}
+
+.infoCard li {
+  min-height: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.infoCard img {
+  padding-right: 5px;
+  min-width: 24px;
+  max-width: 25px;
+  max-height: 25px;
+}
+
+.gitImage {
+  left: 13px;
+  top: 30px;
+  position: absolute;
+  border-radius: 300px;
+  border: 10px solid var(--profile-border);
+  height: 370px;
+  width: 370px;
+}
+
+.frame {
+  position: absolute;
+  width: 80%;
+  height: 70%;
+  left: 20%;
+  top: 13%;
+  overflow: hidden;
+}
+
+.interface {
+  align-items: center;
+}
+
+.input_search {
+  margin-top: 50px;
+  height: 50px;
+  width: 300px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.colorChangeInput {
+  margin-top: 10px;
+  height: 50px;
+  width: 200px;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.btn {
+  width: 90px;
+  height: 50px;
+  border-radius: 5px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Git Card</title>
+    <link
+      rel="shortcut icon"
+      href="./favicons/icons8-github-16.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <main class="card">
+      <div class="nameTag">
+        <img src="./assets/icons8-github-96.svg" alt="" />
+        <header class="header name">Stuutis (Christian)</header>
+      </div>
+      <div class="info">
+        <ul class="infoCard">
+          <li class="followers">
+            <img src="./assets/following.svg" alt="" />
+          </li>
+
+          <li class="following">
+            <img src="./assets/following.svg" alt="" />
+          </li>
+          <li class="repositories">
+            <img src="./assets/repositories.svg" alt="" />
+          </li>
+          <li class="company">
+            <img src="./assets/company.svg" alt="" />
+          </li>
+          <li class="location">
+            <img src="./assets/local.svg" alt="" />
+          </li>
+        </ul>
+      </div>
+      <div class="frame">
+        <img class="gitImage" src="" alt="imagem do GitHub" />
+      </div>
+    </main>
+
+    <div class="interface">
+      <form class="form">
+        <input
+          type="search"
+          class="input_search"
+          placeholder="Digite seu usuario do GitHub"
+          required
+        />
+      </form>
+
+      <div class="colorChangeBox">
+        <input
+          type="number"
+          name="colorChange"
+          class="colorChangeInput"
+          placeholder="Insira um valor para mudar a cor"
+        />
+        <button onclick="cardColorChange()" class="btn">Mudar cor</button>
+      </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
